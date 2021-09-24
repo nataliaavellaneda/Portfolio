@@ -5,40 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portafolio</title>
+    <title>Portfolio of Natalia</title>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-
-            <a class="navtext">Home</a>
-            <a class="navtext">Portfolio</a>
-            <a class="navtext">Bio</a>
-            <a class="navtext">contact</a>
-
+        <nav class="text-upper">
+            <a href="index.html" class="navtext">Home</a>
+            <a href="index.html" class="navtext">Portfolio</a>
+            <a href="index.html" class="navtext">Bio</a>
+            <a href="index.html" class="navtext">contact</a>
         </nav>
     </header>
-    <div class="middle-section">
+
+    <div class="first-section">
         <div class="photo">
-            <img src="./images/photoprofile.png" alt="perfil">
-            <p class="middle-section-textbox-bold" >Portafolio UX-UI Design</p>
-            <p class="middle-section-textbox" >Natalia Avellaneda </p>
+            <img src="./images/photoprofile.png" alt="profile">
         </div>
+        <div class="first-section-bar">
+            <div class="first-section-textbox">
+                <p class="first-section-textbox-title" >Portafolio UX-UI Design</p>
+                <p class="first-section-textbox-name" >Natalia Avellaneda </p>
+            </div>
+        </div>
+
     </div>
-    <div>
+
+    <div class="social-media-container">
         <a href="https://nataliaavellaneda73.medium.com">
             <img src="./images/medium.png">
-            MEDIUM
+            <div>MEDIUM</div>
         </a>
         <a href="https://www.linkedin.com/in/natalia-avellaneda-703369182/">
             <img src="./images/linkedin.png">
-            LINKEDIN
+            <div>LINKEDIN</div>
         </a>
     </div>
+
+    <div class="information-boxes text-upper">
+        <div class="info-box">
+            <img src="./images/huertify.png" data-aos="zoom-in">
+            <div class="info-box-text">
+                huertify
+            </div>
+        </div>
+
+        <div class="info-box reverse-direction">
+            <img src="./images/metalibreriaimage.png" data-aos="zoom-in">
+            <div class="info-box-text">
+                metalibreria
+            </div>
+        </div>
+
+        <div class="info-box">
+            <img src="./images/songkick.png" data-aos="zoom-in">
+            <div class="info-box-text">
+                songkick
+            </div>
+        </div>
+
+        <div class="info-box reverse-direction">
+            <img src="./images/letsgoals.png" data-aos="zoom-in">
+            <div class="info-box-text">
+                let's goals
+            </div>
+        </div>
+
+        <div class="info-box">
+            <img src="./images/finalproject.png" data-aos="zoom-in">
+            <div class="info-box-text">
+                final project
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="arrow-up-button" onclick="topFunction()">
+        <svg width="50" height="24" viewBox="0 0 50 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M42.8571 23.8262L25 8.93481L7.14286 23.8262L0 20.8479L25 0L50 20.8479L42.8571 23.8262Z" fill="#C4C4C4"/>
+        </svg>
+    </div>
+
+    <script type="text/javascript">
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
