@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+.navtext{
+    font-size: 25px;
+    font-weight: medium;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue";
+
+}
+header {
+    width: 100%;    
+    height: 144px;
+}
+nav {
+    display: flex; 
+    justify-content: center;
+    gap: 102px;
+    align-items: center;
+    height: 100%;
+}
+.middle-section {
+    background-image: url("../images/imagehome.png");
+    width: 100%;
+    height: 725px;
+    background-size: cover;
+}
+.middle-section-textbox-bold {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    color: white;
+}
+.middle-section-textbox {
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: white;
+    padding: 20px
+    
+}
+
+.photo {
+    padding: 78px 20px 20px 50px;
+}
+
+.photo img{
+    margin-bottom: 24px;
+}
+
